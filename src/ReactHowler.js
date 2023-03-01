@@ -68,7 +68,6 @@ class ReactHowler extends Component {
       this.howler.off() // Remove event listener
       this.howler.stop() // Stop playback
       this.howler.unload() // Remove sound from pool
-      this.howler = null // Destroy it
     }
   }
 
