@@ -18,6 +18,6 @@ ghpages.clean()
 
 console.log('Deploy with github token')
 ghpages.publish(path.join(__dirname, '../examples/react/build'), {
-  repo: 'https://' + process.env.GH_TOKEN + '@github.com/thangngoc89/react-howler.git',
+  repo: 'https://' + process.env.GH_TOKEN + '@github.com/jennspencer/react-howler.git',
   silent: true
 }, callback)
